@@ -1,8 +1,9 @@
-import './App.css';
+import ColorPicker from './colorPicker';
 
 function App() {
   return (
     <>
+    <ColorPicker/>
     </>
   );
 }
