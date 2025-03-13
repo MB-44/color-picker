@@ -8,7 +8,6 @@ function ColorPicker() {
     setColor(event.target.value);
   }
 
-  // Copy the current color to the clipboard
   function handleCopy() {
     navigator.clipboard.writeText(color)
       .then(() => {
